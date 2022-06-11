@@ -40,4 +40,9 @@ count=0;
 button.onclick = function (){
     count = count + 1;
     button.innerHTML = "click counter" + count;
+    if(count===10 && count <11 && count>0){
+        count *=  -1; 
+        button.innerHTML = "decreaser click" + count;
+        return
+    };
 };
