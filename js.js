@@ -38,6 +38,6 @@
 var button = document.getElementById("btnid"),
     count=0;
     button.onClick= function () {
-        count +=1;
+        count = count +1;
         button.innerHTML= "click" + count;
     };
