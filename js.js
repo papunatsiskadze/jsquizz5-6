@@ -35,9 +35,9 @@
 
 
 // quizz 7
-var button = document.getElementById("btnid"),
-    count=0;
-    button.onClick= function () {
-        count = count +1;
-        button.innerHTML= "click" + count;
-    };
+var button = document.getElementById("buttonid"),
+count=0;
+button.onclick = function (){
+    count = count + 1;
+    button.innerHTML = "click counter" + count;
+};
